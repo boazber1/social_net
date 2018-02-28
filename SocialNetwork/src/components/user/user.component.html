@@ -1,0 +1,12 @@
+<div class="user-field">{{user.name}} {{isFriend(user) ? '[Already friend]' : null}}
+  <button
+    class="user-add-friend-button"
+    *ngIf="!isFriend(user) && !isUser(user)"
+    (click)="addFriend(user)"
+  >
+    Add friend
+  </button>
+  <span class="user-birthday">{{birthday}}</span>
+</div>
+
+

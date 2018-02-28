@@ -1,0 +1,8 @@
+.actions-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button {
+    padding: 9.2px 20px;
+}

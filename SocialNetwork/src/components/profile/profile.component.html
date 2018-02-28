@@ -1,0 +1,16 @@
+<div class="profile-frame">
+  <div class="profile-field">
+    <span class="profile-label">Name: </span>
+    <span>{{connector.profile.name}}</span>
+  </div>
+  <div class="profile-field">
+    <span class="profile-label">Birthday: </span>
+    <span>{{connector.profile.birthday > 0 ? birthday : null}}</span>
+  </div>
+  <div class="profile-field">
+    <span class="profile-label">Hobbies: </span>
+      <ul>
+        <li *ngFor="let hobby of connector.profile.hobbies">{{hobby}}</li>
+      </ul>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+.user-field {
+    display: flex;
+    padding-left: 15px;
+    line-height: 40px;
+}
+
+.user-add-friend-button {
+    position: relative;
+    top: 10px;
+    height: 20px;
+    left: 20px;
+}
+
+.user-birthday {
+    padding-left: 35px;
+}

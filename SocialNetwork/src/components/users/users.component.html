@@ -1,0 +1,10 @@
+<div class="users-title">{{connector.usersTitle}}</div>
+<div class="user-container" *ngFor="let user of connector.users">
+  <app-user
+          [user]="user"
+          [isFriend]="connector.isFriend"
+          [addFriend]="connector.addFriend"
+          [isUser]="connector.isUser"
+  ></app-user>
+</div>
+

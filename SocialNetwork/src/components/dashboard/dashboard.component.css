@@ -1,0 +1,34 @@
+.dashboard-frame {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.dashboard-left-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-users-frame {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+.dashboard-actions-frame {
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.dashboard-profile-frame {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin-bottom: 50px;
+}
